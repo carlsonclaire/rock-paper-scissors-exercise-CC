@@ -27,6 +27,22 @@ c = random.choice(valid_options)
 print("COMPUTER CHOSE:",c)
 
 # DETERMINE THE WINNER
-
-
+if (c == 'rock') and (x == 'paper'):
+    print('you win')
+if (c == 'rock') and (x == 'scissors'):
+    print('you lose')
+if (c == 'rock') and (x == 'rock'):
+      print('tie, try again')
+if (c == 'paper') and (x == 'paper'):
+    print('you tie, try again')
+if (c == 'paper') and (x == 'scissors'):
+    print('you win')
+if (c == 'paper') and (x == 'rock'):
+    print('you lose')
+if (c == 'scissors') and (x == 'paper'):
+    print('you win')
+if (c == 'scissors') and (x == 'scissors'):
+    print('tie, try again')
+if (c == 'scissors') and (x == 'rock'):
+    print('you win')
 # DISPLAY THE FINAL RESULTS
