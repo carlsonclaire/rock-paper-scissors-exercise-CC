@@ -10,6 +10,7 @@ This is a simple game that you can install to play rock, paper, scissors against
 + Anaconda 3.7
 + Python 3.7+
 + Pip
++ You'll also have to download a dotenv package (more on that below)
 
 # Project files description
 + game.py - where all of the game code and logic resides
@@ -21,7 +22,7 @@ This is a simple game that you can install to play rock, paper, scissors against
 # Install the repository
 Fork this [remote repository](https://github.com/carlsonclaire/rock-paper-scissors-exercise-CC) under your own control, then "clone" or download your remote copy onto your local computer.
 
-Navigate to your game from the command line based on where it's stored on your computer and the title you've given your game. For example:
+Navigate to your game from the command line based on where it's stored on your computer and the title you've given your repository. For example:
 
 ```sh
 cd rock-paper-scissors-exercise
@@ -30,7 +31,7 @@ cd rock-paper-scissors-exercise
 # Install the dotenv package
 + Source: All of the instructions and code below are from https://github.com/theskumar/python-dotenv
 
-Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials. For example:
+Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials. To do so, please first navigate into a virtual environment for your exercise. Then:
 
 ```
 import os
@@ -43,8 +44,8 @@ print(exit)
 Then, use Anaconda to create and activate a new virtual environment:
 
 ```sh
-conda create -n my-first-env python=3.8
-conda activate my-first-env
+conda create -n my-game-env python=3.8
+conda activate my-game-env
 ```
 
 After activating the virtual environment, install package dependencies (see the ["requirements.txt"](/requirements.txt) file):
