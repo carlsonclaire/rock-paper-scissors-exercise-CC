@@ -30,17 +30,17 @@ cd rock-paper-scissors-exercise
 # Install the dotenv package
 + Source: Code from https://github.com/theskumar/python-dotenv
 
-Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials.
+Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials. For example:
 
-```import os
+```
+import os
 from dotenv import load_dotenv
 load_dotenv()
 z = os.getenv("PLAYER_NAME")
 print(z)
 print(exit)
 ```
-
-```Then, use Anaconda to create and activate a new virtual environment:
+Then, use Anaconda to create and activate a new virtual environment:
 
 ```sh
 conda create -n my-first-env python=3.8
@@ -62,7 +62,6 @@ Now, start playing your game!
 ```py
 python game.py
 
-# Game play
 The user will first be asked to input their choice between rock, paper or scissors
 ```x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
 '''
