@@ -4,7 +4,7 @@ Example materials and support from Professor Rosetti were leveraged heavily in t
 + Source: https://github.com/theskumar/python-dotenv for environment variables
 + Source: https://github.com/ma-shamshiri/Pacman-Game#readme found from a listing of "GitHub" ReadME template examples
 
-This is a simple game that you can install to play rock, paper, scissors against a computer opponent.
+This is a simple game that you can install to play rock, paper, scissors against your computer.
 
 # Prerequisites
 + Anaconda 3.7
@@ -91,3 +91,4 @@ elif (c == 'Scissors') and (x == 'Rock'):
     print('You win! Congrats.')
 print('Win, lose, or tie, we thank you for playing!')
 ```
+Run the Python script to play as many times as you wish to continue playing the game!
