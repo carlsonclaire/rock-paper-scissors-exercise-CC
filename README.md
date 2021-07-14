@@ -64,7 +64,8 @@ python game.py
 ```
 The user will first be asked to input their choice between rock, paper or scissors:
 
-```x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
+```
+x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
 print(x)
 '''
 A choice will be randomly generated for the computer
