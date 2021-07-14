@@ -3,46 +3,41 @@
 import random
 
 
-# WHAT WE'RE TRYING TO DO
-print('Rock, Paper, Scissors, Shoot!')
+# INTRODUCING THE GAME
+print('"Time for a game of Rock, Paper, Scissors, Shoot!')
 
 # ASK FOR A USER INPUT
-# source: add URL here
-x=input("Please choose 'rock', 'paper', 'scissors'")
+# SOURCE: https://docs.python.org/3/library/functions.html#input
+x=input("Please choose 'Rock', 'Paper', 'Scissors'")
 print(x)
 
 # VALIDATE THE USER INPUT
-# Reminder to ask Prof why we need to print "valid"
-if (x == 'rock') or (x == 'paper') or (x == 'scissors'):
-    print('valid')
+if (x == 'Rock') or (x == 'Paper') or (x == 'Scissors'):
+    print('User chose a valid input.')
 else:
-    print('OOPS, INVALID, PLEASE TRY AGAIN')
+    print('OOPS, that is not a valid input, try again -- capitalization matters!')
     exit()
-print("USER CHOSE: ",x)
+print("USER CHOSE:",x)
 
 # GENERATE A COMPUTER CHOICE
-# SOURCE: STACK OVERFLOW
-valid_options = ['rock','paper','scissors']
+# SOURCE: IMPORT FROM STACK OVERFLOW, https://docs.python.org/3/library/random.html
+valid_options = ['Rock','Paper','Scissors']
 c = random.choice(valid_options)
 print("COMPUTER CHOSE:",c)
 
-# DETERMINE THE WINNER
-if (c == 'rock') and (x == 'paper'):
-    print('you win')
-if (c == 'rock') and (x == 'scissors'):
-    print('you lose')
-if (c == 'rock') and (x == 'rock'):
-      print('tie, try again')
-if (c == 'paper') and (x == 'paper'):
-    print('you tie, try again')
-if (c == 'paper') and (x == 'scissors'):
-    print('you win')
-if (c == 'paper') and (x == 'rock'):
-    print('you lose')
-if (c == 'scissors') and (x == 'paper'):
-    print('you win')
-if (c == 'scissors') and (x == 'scissors'):
-    print('tie, try again')
-if (c == 'scissors') and (x == 'rock'):
-    print('you win')
-# DISPLAY THE FINAL RESULTS
+# DETERMINE THE WINNER AND DISPLAY THE FINAL RESULTS
+# SOURCE: IMPROVEMENTS TO CODE THANKS TO PEER SHARING DURING 07/13 PYTHON AND PROGRAMMING FUNDAMENTAL CLASS FOR SHARING APPROACH
+if (c == x):
+    print('Tie, play again.')
+elif c == 'Rock' and x == 'Paper':
+    print('You win! Congrats.')
+elif (c == 'Rock') and (x == 'Scissors'):
+    print('Sorry, you lose.')
+elif (c == 'Paper') and (x == 'Scissors'):
+    print('You win! Congrats.')
+elif (c == 'Paper') and (x == 'Rock'):
+    print('Sorry, you lose.')
+elif (c == 'Scissors') and (x == 'Paper'):
+    print('You win! Congrats.')
+elif (c == 'Scissors') and (x == 'Rock'):
+    print('You win! Congrats.')
