@@ -1,6 +1,7 @@
 # Rock Paper Scissors Exercise
 Example materials and support from Professor Rosetti were leveraged heavily in the creation of this game.
 + Source: Prof. Rosetti "My First Python App" ReadMe example
++ Source: https://github.com/theskumar/python-dotenv for environment variables
 + Source: https://github.com/ma-shamshiri/Pacman-Game#readme found from a listing of "GitHub" ReadME template examples
 
 This is a simple game that you can install to play rock, paper, scissors against a computer opponent.
@@ -27,7 +28,8 @@ cd rock-paper-scissors-exercise
 ```
 
 # Install the dotenv package
-# Source: Professor Rosetti in-class and GitHub examples
++ Source: Code from https://github.com/theskumar/python-dotenv
+
 Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials.
 
 ```import os
