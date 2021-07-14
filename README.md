@@ -62,8 +62,7 @@ Now, you're finally ready to start playing your game!
 ```
 python game.py
 ```
-The user will first be asked to input their choice between rock, paper or scissors:
-
+You(the user) will be asked to input your choice of rock, paper or scissors. If you stray from these options, you'll get an error message.
 ```
 x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
 print(x)
