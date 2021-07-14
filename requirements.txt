@@ -1,2 +1,2 @@
-# Package requirements are listed here
+# Package requirements for this game are listed here
 python-dotenv
