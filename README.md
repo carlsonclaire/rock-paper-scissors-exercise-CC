@@ -1,6 +1,7 @@
 # Rock Paper Scissors Exercise
-# Source: Prof. Rosetti "My First Python App" ReadMe example
-# Source: https://github.com/ma-shamshiri/Pacman-Game#readme found from a listing of "GitHub" ReadME template examples
+Example materials and support from Professor Rosetti were leveraged heavily in the creation of this game.
++ Source: Prof. Rosetti "My First Python App" ReadMe example
++ Source: https://github.com/ma-shamshiri/Pacman-Game#readme found from a listing of "GitHub" ReadME template examples
 
 This is a simple game that you can install to play rock, paper, scissors against a computer opponent.
 
