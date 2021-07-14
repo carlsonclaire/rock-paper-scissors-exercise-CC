@@ -1,2 +1,2 @@
-#Package requirements here
+# Package requirements are listed here
 python-dotenv

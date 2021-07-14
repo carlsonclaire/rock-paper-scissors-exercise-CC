@@ -6,22 +6,21 @@ from dotenv import load_dotenv
 load_dotenv()
 z = os.getenv("PLAYER_NAME")
 print(z)
-exit()
+print(exit)
 
-
-# INTRODUCING THE GAME
-print('"Time for a game of Rock, Paper, Scissors, Shoot!')
+# PLAY THE GAME
+print('Hello and welcome to a game we like to call Rock, Paper, Scissors, Shoot!')
 
 # ASK FOR A USER INPUT
 # SOURCE: https://docs.python.org/3/library/functions.html#input
-x=input("Please choose 'Rock', 'Paper', 'Scissors'")
+x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
 print(x)
 
 # VALIDATE THE USER INPUT
 if (x == 'Rock') or (x == 'Paper') or (x == 'Scissors'):
-    print('User chose a valid input.')
+    print('One moment please while we make your move.')
 else:
-    print('OOPS, that is not a valid input, try again -- capitalization matters!')
+    print('Hmm, that does not look like a valid input, try again -- capitalization matters!')
     exit()
 print("USER CHOSE:",x)
 
@@ -47,3 +46,4 @@ elif (c == 'Scissors') and (x == 'Paper'):
     print('You win! Congrats.')
 elif (c == 'Scissors') and (x == 'Rock'):
     print('You win! Congrats.')
+print('Win, lose, or tie, we thank you for playing!')

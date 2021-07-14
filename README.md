@@ -9,9 +9,7 @@ This is a simple game-like Python exercise that you can install to practice and 
 + Pip
 
 # Installation
-Fork this [remote repository] (ADD HERE) under your own control, then "clone" or download your remote copy onto your local computer.
-
-Open
+Fork this [remote repository] (ADD URL HERE) under your own control, then "clone" or download your remote copy onto your local computer.
 
 # Usage
 Navigate to your game from the command line.
