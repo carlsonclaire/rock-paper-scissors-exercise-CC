@@ -59,13 +59,34 @@ In the root directory of your local repository, create a new file called ".env",
 
 # Playing the game
 Now, start playing your game!
-```py
+```
 python game.py
+```
+The user will first be asked to input their choice between rock, paper or scissors:
 
-The user will first be asked to input their choice between rock, paper or scissors
 ```x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
+print(x)
 '''
 A choice will be randomly generated for the computer
+```valid_options = ['Rock','Paper','Scissors']
+c = random.choice(valid_options)
+print("COMPUTER CHOSE:",c)
 ```
 The result of the game will appear immediately
+```
+if (c == x):
+    print('Tie, play again.')
+elif c == 'Rock' and x == 'Paper':
+    print('You win! Congrats.')
+elif (c == 'Rock') and (x == 'Scissors'):
+    print('Sorry, you lose.')
+elif (c == 'Paper') and (x == 'Scissors'):
+    print('You win! Congrats.')
+elif (c == 'Paper') and (x == 'Rock'):
+    print('Sorry, you lose.')
+elif (c == 'Scissors') and (x == 'Paper'):
+    print('You win! Congrats.')
+elif (c == 'Scissors') and (x == 'Rock'):
+    print('You win! Congrats.')
+print('Win, lose, or tie, we thank you for playing!')
 ```
