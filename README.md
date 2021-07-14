@@ -28,7 +28,7 @@ cd rock-paper-scissors-exercise
 ```
 
 # Install the dotenv package
-+ Source: Code from https://github.com/theskumar/python-dotenv
++ Source: All of the instructions and code below are from https://github.com/theskumar/python-dotenv
 
 Before you run the Python script, you'll need to install the .env files. This will allow you to enter player credentials. For example:
 
