@@ -58,7 +58,7 @@ In the root directory of your local repository, create a new file called ".env",
     USER_NAME="Your name"
 
 # Playing the game
-Now, start playing your game!
+Now, you're finally ready to start playing your game!
 ```
 python game.py
 ```
@@ -67,8 +67,9 @@ The user will first be asked to input their choice between rock, paper or scisso
 ```
 x=input("Please choose and type in 'Rock', 'Paper', 'Scissors'")
 print(x)
-'''
-A choice will be randomly generated for the computer
+```
+A choice will be randomly generated for the computer:
+
 ```valid_options = ['Rock','Paper','Scissors']
 c = random.choice(valid_options)
 print("COMPUTER CHOSE:",c)
