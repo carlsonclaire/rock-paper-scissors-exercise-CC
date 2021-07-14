@@ -1,6 +1,12 @@
 
-#IMPORTS
+# IMPORTS
 import random
+import os
+from dotenv import load_dotenv
+load_dotenv()
+z = os.getenv("PLAYER_NAME")
+print(z)
+exit()
 
 
 # INTRODUCING THE GAME
